@@ -91,6 +91,29 @@ Open http://localhost:5173
 }
 ```
 
+### 5. Connect Local Project to GitHub
+
+```bash
+git remote add origin https://github.com/yourusername/ai-resume-analyzer.git
+```
+
+### 6. Push Code to GitHub
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+### Future Updates
+
+Whenever you make changes:
+
+```bash
+git add .
+git commit -m "Describe your changes"
+git push
+```
+
 ## Deploy (Free Tier)
 
 ### Backend — [Render.com](https://render.com)
@@ -107,6 +130,16 @@ Open http://localhost:5173
 1. Import repo → set **Root Directory** to `frontend`
 2. **Environment variable:** `VITE_API_URL=https://your-backend.onrender.com`
 3. Deploy
+
+## Live Demo
+
+**Try the application here:**
+
+https://ai-resume-analyzer-frontend-plum.vercel.app/
+
+⚠️ Free Render services spin down after 15 mins of inactivity. First request after sleep takes ~30 seconds. Add a note on your site: "First analysis may take 30s to wake up." Upgrade to paid ($7/mo) when you start earning.
+
+---
 
 ## Testing Tips
 
