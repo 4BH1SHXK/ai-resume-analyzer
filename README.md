@@ -91,13 +91,13 @@ Open http://localhost:5173
 }
 ```
 
-### 5. Connect Local Project to GitHub
+### Connect Local Project to GitHub
 
 ```bash
 git remote add origin https://github.com/yourusername/ai-resume-analyzer.git
 ```
 
-### 6. Push Code to GitHub
+### Push Code to GitHub
 
 ```bash
 git branch -M main
