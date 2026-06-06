@@ -126,7 +126,7 @@ export default function App() {
       </main>
 
       <footer className="mt-12 border-t border-slate-200 py-6 text-center text-xs text-slate-500">
-        Built for students · FastAPI + React + Google Gemini 1.5 Flash
+        Made by Abhishek Mishra
       </footer>
     </div>
   );
